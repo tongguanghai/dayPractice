@@ -1,0 +1,21 @@
+关于Object.defineProperty描述正确的是？（多选）
+
+A.Object.defineProperty()方法会直接在一个对象上定义一个新属性，或者修改一个对象的现有属性，并返回这个对象
+
+B.一旦使用Object.defineProperty给对象添加属性，那么如果不设置属性的特性，那么configurable、enumerable、writable
+这些值都为默认的false
+
+C.除了可以给新定义的属性设置特性，也可以给已有的属性设置特性
+
+D.在ie8下不能在DOM对象上使用，可以在原生的对象使用Object.defineProperty()
+
+E.当使用getter或setter方法，可以使用writable和value这两个属性
+
+
+A B C
+
+解析：
+
+D:在ie8下只能在DOM对象上使用，尝试在原生的对象使用 Object.defineProperty()会报错
+
+E:当使用了getter或setter方法，不允许使用writable和value这两个属性

@@ -1,0 +1,15 @@
+关于元编程的说法正确的是？（多选）
+
+A.Reflect用于替换直接调用Object的方法
+
+B.reflect是一个函数对象，需要使用new操作符
+
+C.Proxy用于自定义的对象的行为，比如修改set和get
+
+D.Symbol、Reflect和Proxy是属于ES6元编程范畴的，能“介入”对象的底层操作进行的过程中，并加以影响
+
+
+A C D
+
+解析：
+B:Reflect不是一个函数对象，没有constructor，所以不要使用new操作符
